@@ -21,4 +21,4 @@ jobs:
         pip install -r requirements.txt
     - name: Run tests
       run: |
-        python -m unittest test_calculadora.py
+        python -m unittest tests/teste_jogo.py  # Update path to your test file
